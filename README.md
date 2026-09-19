@@ -47,6 +47,8 @@ Verified locally (GTX 1650 4GB, Ollama, offline): **2295MB / 4096MB** VRAM with 
 
 ## Reproduce (Kaggle T4, ~8h)
 
+[![Kaggle](https://img.shields.io/badge/Kaggle-Notebook-blue)](https://www.kaggle.com/code/dadhichisarkershayon/model-qwen3-4b-q4-k-m-gguf)
+
 `Qwen3-GGUF-Pipeline.ipynb` in this repo — upload to Kaggle, attach `HF_TOKEN`, Run All. Skips finished steps, fails loudly instead of publishing junk.
 
 ## Honest limitations
