@@ -1,0 +1,30 @@
+{
+  "base_repo": "Qwen/Qwen3-4B",
+  "seed": 42,
+  "calib_lines": 3000,
+  "threads": 4,
+  "quants": [
+    "Q4_K_M",
+    "Q8_0"
+  ],
+  "ppl": {
+    "f16": 11.497,
+    "Q4_K_M": 11.8856,
+    "Q8_0": 11.548
+  },
+  "rise_q4_pct": 3.38,
+  "sha16": {
+    "smol-Q4_K_M.gguf": "aa961d70f7fa0af2",
+    "smol-Q8_0.gguf": "d4bde3a852f87407",
+    "imatrix.dat": "8bec1a7e5d0e7e92",
+    "calib.txt": "d6922a9da92a7881",
+    "wikitext-test.txt": "28efc4aad1c6b5ed"
+  },
+  "sizes_gb": {
+    "smol-Q4_K_M.gguf": 2.5,
+    "smol-Q8_0.gguf": 4.28,
+    "imatrix.dat": 0.0,
+    "calib.txt": 0.0,
+    "wikitext-test.txt": 0.0
+  }
+}
