@@ -19,6 +19,9 @@ pipeline_tag: text-generation
 
 <div align="center">
 
+<a href="https://huggingface.co/ShayonSarker/Qwen3-4B-Q4_K_M-GGUF"><img alt="Hugging Face" src="https://img.shields.io/badge/Hugging%20Face-FFD21E?style=for-the-badge"></a>
+<a href="https://github.com/Dadhichi-Sarker-Shayon/model-qwen3-4b-q4-k-m-gguf"><img alt="GitHub" src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge"></a>
+
 <img alt="Model" src="https://img.shields.io/badge/model-Qwen3--4B-8A2BE2?style=for-the-badge">
 <img alt="Published formats" src="https://img.shields.io/badge/GGUF-Q8_0%20%7C%20Q4_K_M-FFD21E?style=for-the-badge">
 <img alt="Parameters" src="https://img.shields.io/badge/params-4B-00A6A6?style=for-the-badge">
@@ -27,6 +30,10 @@ pipeline_tag: text-generation
 <img alt="License" src="https://img.shields.io/badge/license-Apache--2.0-7C3AED?style=for-the-badge">
 
 </div>
+
+**Downloads:** [Hugging Face — ShayonSarker/Qwen3-4B-Q4_K_M-GGUF](https://huggingface.co/ShayonSarker/Qwen3-4B-Q4_K_M-GGUF) · **Source &amp; build recipes:** [GitHub — model-qwen3-4b-q4-k-m-gguf](https://github.com/Dadhichi-Sarker-Shayon/model-qwen3-4b-q4-k-m-gguf) · **Base model:** [Qwen/Qwen3-4B](https://huggingface.co/Qwen/Qwen3-4B)
+
+The GGUF binaries are hosted on Hugging Face; this repository holds the reproducible conversion pipeline, calibration data, and checksums.
 
 Base: `Qwen/Qwen3-4B` (Apache-2.0) · Quant: llama.cpp `0.4.1-dev (60081bb)` · imatrix on 3000-line wikitext-2 (seed 42, 618 chunks, 4 threads)
 
